@@ -10,7 +10,32 @@ body {
     font-size: 120%;
     background-repeat: no-repeat;
     background-size: cover;
+    
 
 }
 
+.topbar{
+    /* justify-content: center;
+    align-items: center; */
+    width: auto;
+    border: none;
+      
+}
+
+.searchbar{
+    background-position: 10px 10px; 
+    background-color: transparent;
+    background-image: url(currentColor);
+    border: none;
+    border-bottom: solid;
+}
+.people{
+    padding: 14px 20px;
+    margin: 8px 0;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+    display: grid;
+}
 
