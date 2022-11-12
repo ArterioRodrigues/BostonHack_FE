@@ -39,3 +39,11 @@ body {
     display: grid;
 }
 
+.col-25{
+    padding: 14px 20px;
+    margin: 8px 0;
+    position: absolute;
+    top: 80px; 
+
+}
+
