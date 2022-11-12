@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+    background: rgb(0, 0, 0);
+    background-image: url('https://images.unsplash.com/photo-1590176447012-fd1b2aa7f654?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3429&q=80');
+    font-size: 120%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
