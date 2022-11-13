@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Health Buddy</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="brand-title">Health Buddy</div>
+        <div class="navbar-links">
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        </div>
+    </nav>
+
+    <div class = "Home" id = "Home">
+       
+        
+        <div class="data">           
+            <div class = "title">
+                Health Buddy
+            </div>
+            
+            <div class="wrap">
+                <div class="todays">
+
+                    <div class="feel">
+                        <div class = "subtitle">   
+                            HOW ARE YOU FEELING TODAY? <br/> 
+                            <div class="highlight">
+                                PICK ONE :
+                            </div>
+                            
+                        </div>
+                        
+
+                        <ul class = "options">
+                            <button class = "btn"> <li class = "emotes" style="color:black;" onclick="onEmoteClick(this)"> <div class = "emote"> 😘</div> GOOD </li> </button>
+                            <button class = "btn"> <li class = "emotes" style="color:black;" onclick="onEmoteClick(this)"> <div class = "emote"> 😑</div> MEH  </li> </button>
+                            <button class = "btn"> <li class = "emotes" style="color:black;" onclick="onEmoteClick(this)"> <div class = "emote"> 😕</div> BAD  </li> </button>
+                        </ul>
+
+                        <div class = "calendar">
+                            <ul class = "week">
+                                <li class = "day"></li>
+                                <li class = "day"></li>
+                                <li class = "day"></li>
+                                <li class = "day"></li>
+                                <li class = "day"></li>
+                                <li class = "day"></li>
+                                <li class = "day">Todays Mood</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+            
+          
+
+        </div>
+        
+    </div>
+
+    <div class="spacer layer1"> </div>
+
+    <div id = "About">
+        <div class = "data">
+            <div class = "title">
+                About
+            </div>
+            <div class="wrap">
+                <div class="cards">
+                    <div class="cardsubtitle">LOREM</div>                    
+                    <div class="card">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt rerum, tenetur vitae maxime laudantium qui nostrum maiores tempora veniam fugit. Asperiores, officia temporibus maiores omnis animi exercitationem labore ipsum quidem.
+                    Cumque sunt quaerat asperiores, veniam hic laudantium accusamus officia, tempore pariatur facilis commodi iure, dicta quidem similique placeat aspernatur aliquid impedit sit eum vero modi? Eaque deserunt delectus architecto minus!
+                    Sapiente deserunt quam dolorum quaerat cupiditate velit molestias est id earum aut illo, consequatur nobis vero, voluptatem recusandae consequuntur perspiciatis, fugiat expedita error natus fuga. Veritatis repudiandae architecto ab tempora.    
+                    </div>
+                </div>
+
+                <div class="cards1">
+                    <div class="cardsubtitle">LOREM</div>
+                    <div class="card">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt rerum, tenetur vitae maxime laudantium qui nostrum maiores tempora veniam fugit. Asperiores, officia temporibus maiores omnis animi exercitationem labore ipsum quidem.
+                        Cumque sunt quaerat asperiores, veniam hic laudantium accusamus officia, tempore pariatur facilis commodi iure, dicta quidem similique placeat aspernatur aliquid impedit sit eum vero modi? Eaque deserunt delectus architecto minus!
+                        Sapiente deserunt quam dolorum quaerat cupiditate velit molestias est id earum aut illo, consequatur nobis vero, voluptatem recusandae consequuntur perspiciatis, fugiat expedita error natus fuga. Veritatis repudiandae architecto ab tempora.
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <div class="cardsubtitle">LOREM</div>
+                    <div class="card">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt rerum, tenetur vitae maxime laudantium qui nostrum maiores tempora veniam fugit. Asperiores, officia temporibus maiores omnis animi exercitationem labore ipsum quidem.
+                        Cumque sunt quaerat asperiores, veniam hic laudantium accusamus officia, tempore pariatur facilis commodi iure, dicta quidem similique placeat aspernatur aliquid impedit sit eum vero modi? Eaque deserunt delectus architecto minus!
+                        Sapiente deserunt quam dolorum quaerat cupiditate velit molestias est id earum aut illo, consequatur nobis vero, voluptatem recusandae consequuntur perspiciatis, fugiat expedita error natus fuga. Veritatis repudiandae architecto ab tempora.
+                    </div>
+                </div>
+
+            </div>
+            
+
+        </div>
+    </div>
+
+    <div class="spacer layer2"> </div>
+
+    <div id="Contact">
+        <div class = "data">
+            <div class = "title">
+                Contact
+            </div>
+
+            <div class="info">
+                
+            </div>
+        </div>
+    </div>
+
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src ="script.js"></script>
+</body>
+</html>
