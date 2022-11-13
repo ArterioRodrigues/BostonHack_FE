@@ -68,5 +68,3 @@ async function onEmoteClick(node){
     }
 }
 
-
-

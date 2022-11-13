@@ -309,3 +309,13 @@ li, ul {
     color: black;
 }
 
+.submit {
+    display: block;
+    color: black;
+    text-align: center;
+    background-color: transparent;
+
+    padding: 5px 20px;
+    
+    margin: 10px auto;
+}
